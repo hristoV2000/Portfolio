@@ -274,8 +274,6 @@ header .navbar ul li a.active::before{
 .about-me .about-content .img img{
     width: 100%;
     display: block;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
 }
 
 .about-me .about-content .text{
@@ -442,61 +440,22 @@ header .navbar ul li a.active::before{
 }
 
     
-/*Mottivation Lettter*/ 
+/*CV*/ 
 
-.sidebar {
-    width: 22.5%;
-    margin-right: 4.5%;
+.CV .img{
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
-.Motivation{
-    padding: 100px 15px; 
-    background-color: #ffffff;
- }
- 
- .Motivation .section-title p.small{
-     display: block;
-     font-size: 14px;
-     color: #838383;
-     font-weight: 400;
-     letter-spacing: 2px;
- }
-
-.Motivation .about-content .text h4{
-    font-size: 20px;
-    font-weight: 600;
-    color: #000000;
+.align-items-center{
+    align-items: center;
 }
 
-.Motivation .about-content .text{
-    flex: 0 0 73%;
-    max-width: 73%;
-}
-
-.Motivation .about-content .text p{
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #3f3f3f;
-    margin: 0 0 20px;
-}
-
-.Motivation .about-content .sidebar .info .list{
+.CV .img img{
+    width: 100%;
     display: block;
-    margin-bottom: 9px;
 }
 
-.Motivation .about-content .sidebar .info .list label{
-    color: rgb(94, 94, 94);
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.Motivation .about-content .sidebar .info .list .main-label{
-    color: rgb(61, 61, 61);
-    font-weight: 600;
-    font-size: 25px;
-}
 
 /*Contact us*/ 
 
@@ -658,7 +617,7 @@ footer .social a:hover{
 }
 
 @media (max-width: 1025px){
-    .Motivation .about-content .text{
+    .CV .about-content .text{
         flex: 0 0 100%;
         max-width: 100%;
         padding-left: 0px;
